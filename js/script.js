@@ -10,7 +10,7 @@ todoForm.addEventListener('submit', function (e) {
     const date = todoDate.value;
 
     if (task === '' || date === '') {
-        alert('Please fill in both the task and date fields!');
+        alert('Please fill in both fields!');
         return;
     }
 
